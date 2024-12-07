@@ -4,6 +4,7 @@ struct MeView: View {
     @Environment(\.dismiss) private var dismiss
     @StateObject private var service = ContributorsService.shared
     @EnvironmentObject private var networkMonitor: NetworkMonitor
+    @State private var showingIconPicker = false
     
     // 社交媒体数据
     let socialLinks = [
@@ -55,7 +56,7 @@ struct MeView: View {
                             .frame(width: size, height: size)
                             .clipShape(RoundedRectangle(cornerRadius: 6))
                     case .failure(_):
-                        // 加载失败
+                        // 加载失���
                         defaultAvatar
                     @unknown default:
                         defaultAvatar
@@ -94,7 +95,7 @@ struct MeView: View {
                         .foregroundStyle(.secondary)
                 }
                 Spacer()
-                // 如果有URL，显示外链图标
+                // 如果有URL，显示外链���标
                 if contributor.url != nil {
                     Image(systemName: "arrow.up.right")
                         .font(.footnote)
@@ -162,6 +163,25 @@ struct MeView: View {
                         Text(AppInfo.versionAndBuild)
                             .foregroundStyle(.secondary)
                     }
+                    
+                    Button {
+                        showingIconPicker = true
+                    } label: {
+                        HStack(spacing: 15) {
+                            // 修改应用图标的显示方式，移除多余的背景
+                            AppIcon.current.preview
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 27, height: 27) // 稍微增大尺寸以配其他图标
+                                .clipShape(RoundedRectangle(cornerRadius: 6))
+                            Text("应用图标")
+                                .foregroundColor(.primary)
+                            Spacer()
+                            Text(AppIcon.current.displayName)
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .buttonStyle(PlainButtonStyle())
                 }
                 
                 // 贡献者列表
@@ -216,10 +236,10 @@ struct MeView: View {
                     }
                 }
             }
+            .sheet(isPresented: $showingIconPicker) {
+                AppIconPickerView()
+            }
         }
     }
 }
 
-#Preview {
-    MeView()
-}

@@ -1,0 +1,24 @@
+<key>CFBundleIcons</key>
+<dict>
+    <key>CFBundleAlternateIcons</key>
+    <dict>
+        <key>TranslationGroup</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>TranslationGroup</string>
+            </array>
+            <key>UIPrerenderedIcon</key>
+            <false/>
+        </dict>
+    </dict>
+    <key>CFBundlePrimaryIcon</key>
+    <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+            <string>AppIcon</string>
+        </array>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+    </dict>
+</dict>

@@ -6,20 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6E07941B2D0132E300E202BC /* SwiftGG Sticker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6E0794142D0132E200E202BC /* SwiftGG Sticker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6E0794192D0132E300E202BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E2ACDF22CFE7D5C0003962C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E0794132D0132E200E202BC;
-			remoteInfo = "SwiftGG Sticker";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6E0794202D0132E300E202BC /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -27,7 +13,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6E07941B2D0132E300E202BC /* SwiftGG Sticker.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,18 +20,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E0794142D0132E200E202BC /* SwiftGG Sticker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftGG Sticker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2ACDFA2CFE7D5C0003962C /* SwiftGG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6E07941F2D0132E300E202BC /* Exceptions for "SwiftGG Sticker" folder in "SwiftGG Sticker" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 6E0794132D0132E200E202BC /* SwiftGG Sticker */;
-		};
 		6E2ACE2F2CFEA36D0003962C /* Exceptions for "SwiftGG" folder in "SwiftGG" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -57,14 +34,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6E0794152D0132E200E202BC /* SwiftGG Sticker */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6E07941F2D0132E300E202BC /* Exceptions for "SwiftGG Sticker" folder in "SwiftGG Sticker" target */,
-			);
-			path = "SwiftGG Sticker";
-			sourceTree = "<group>";
-		};
 		6E2ACDFC2CFE7D5C0003962C /* SwiftGG */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -90,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				6E2ACDFC2CFE7D5C0003962C /* SwiftGG */,
-				6E0794152D0132E200E202BC /* SwiftGG Sticker */,
 				6E2ACDFB2CFE7D5C0003962C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				6E2ACDFA2CFE7D5C0003962C /* SwiftGG.app */,
-				6E0794142D0132E200E202BC /* SwiftGG Sticker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,26 +74,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E0794132D0132E200E202BC /* SwiftGG Sticker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E07941C2D0132E300E202BC /* Build configuration list for PBXNativeTarget "SwiftGG Sticker" */;
-			buildPhases = (
-				6E0794122D0132E200E202BC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				6E0794152D0132E200E202BC /* SwiftGG Sticker */,
-			);
-			name = "SwiftGG Sticker";
-			packageProductDependencies = (
-			);
-			productName = "SwiftGG Sticker";
-			productReference = 6E0794142D0132E200E202BC /* SwiftGG Sticker.appex */;
-			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
-		};
 		6E2ACDF92CFE7D5C0003962C /* SwiftGG */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E2ACE082CFE7D5E0003962C /* Build configuration list for PBXNativeTarget "SwiftGG" */;
@@ -139,7 +86,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6E07941A2D0132E300E202BC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				6E2ACDFC2CFE7D5C0003962C /* SwiftGG */,
@@ -161,9 +107,6 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					6E0794132D0132E200E202BC = {
-						CreatedOnToolsVersion = 16.0;
-					};
 					6E2ACDF92CFE7D5C0003962C = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -184,19 +127,11 @@
 			projectRoot = "";
 			targets = (
 				6E2ACDF92CFE7D5C0003962C /* SwiftGG */,
-				6E0794132D0132E200E202BC /* SwiftGG Sticker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E0794122D0132E200E202BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E2ACDF82CFE7D5C0003962C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,65 +151,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6E07941A2D0132E300E202BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E0794132D0132E200E202BC /* SwiftGG Sticker */;
-			targetProxy = 6E0794192D0132E300E202BC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		6E07941D2D0132E300E202BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = MMX8P87EN6;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftGG Sticker/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SwiftGG Sticker";
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 0.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "cr.jin.SwiftGG.SwiftGG-Sticker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		6E07941E2D0132E300E202BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = MMX8P87EN6;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftGG Sticker/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SwiftGG Sticker";
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 0.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "cr.jin.SwiftGG.SwiftGG-Sticker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 		6E2ACE062CFE7D5E0003962C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -395,12 +272,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = SwiftGG/SwiftGG.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMPILER_INDEX_STORE_ENABLE = Default;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftGG/Preview Content\"";
-				DEVELOPMENT_TEAM = MMX8P87EN6;
+				DEVELOPMENT_TEAM = 4B97U7G8A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGG/Info.plist;
@@ -418,7 +296,7 @@
 				);
 				MARKETING_VERSION = 0.1.1;
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cr.jin.SwiftGG;
+				PRODUCT_BUNDLE_IDENTIFIER = team.swiftgg.swiftgg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -435,12 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = SwiftGG/SwiftGG.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMPILER_INDEX_STORE_ENABLE = Default;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftGG/Preview Content\"";
-				DEVELOPMENT_TEAM = MMX8P87EN6;
+				DEVELOPMENT_TEAM = 4B97U7G8A7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGG/Info.plist;
@@ -458,7 +337,7 @@
 				);
 				MARKETING_VERSION = 0.1.1;
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = cr.jin.SwiftGG;
+				PRODUCT_BUNDLE_IDENTIFIER = team.swiftgg.swiftgg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -473,15 +352,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E07941C2D0132E300E202BC /* Build configuration list for PBXNativeTarget "SwiftGG Sticker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E07941D2D0132E300E202BC /* Debug */,
-				6E07941E2D0132E300E202BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6E2ACDF52CFE7D5C0003962C /* Build configuration list for PBXProject "SwiftGG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
