@@ -5,9 +5,10 @@
 </p>
 
 <p align="center">
-<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat" alt="Swift 6.0"></a>
-<a href="https://developer.apple.com/ios"><img src="https://img.shields.io/badge/iOS-15.0%2B-blue.svg" alt="iOS 18.0+"></a>
-<a href="https://github.com/chenranj/SwiftGG/blob/main/LICENSE"><img src="https://img.shields.io/github/license/chenranj/SwiftGG" alt="License"></a>
+<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/Swift-6.0-orange.svg?style=flat" alt="Swift 6.0"></a>
+<a href="https://developer.apple.com/ios"><img src="https://img.shields.io/badge/iOS-18.0%2B-blue.svg" alt="iOS 18.0+"></a>
+<a href="https://github.com/SwiftGGTeam/SwiftGG-iOS-App/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/SwiftGGTeam/SwiftGG-iOS-App"></a>
+
 </p>
 
 SwiftGG iOS客户端是一个优雅的Swift社区阅读应用,为Swift开发者提供高质量的Swift相关文章阅读体验。
@@ -158,7 +159,7 @@ SwiftGG/
 
 ## 更新日志
 
-### [1.0.0] - 2024-03-XX
+### [0.1.1] - 2024-12-06
 - 初始版本发布
 - 实现基础文章阅读功能
 - 支持深色模式
